@@ -33,17 +33,17 @@ India's **8M+ grocery delivery partners** lose **20–30% weekly income (₹2,00
 
 ## 2. The Solution & Strict Scope 
 
-**AI parametric insurance** with weekly premiums → instant Friday payouts. No paperwork. Fraud-proof ML.
+**AI parametric insurance** → **INSTANT payouts on disruption day**. No paperwork. Fraud-proof ML.
 
 > ⚠️ **STRICT SCOPE:** Income loss **ONLY** from external disruptions.
 > **NO** health / life / accidents / repairs.
 
-> 🗓️ **WEEKLY MODEL:** Matches gig payout cycles perfectly.
+> 🗓️ **WEEKLY MODEL:** Sunday premium → **Instant payouts Mon-Sun**.
 
 ```
-Sunday 8 AM : ₹125 premium debited
-Thu Rain    : Auto ₹600 payout Friday
-Net         : Ravi protected 70% of lost income
+Sunday 8 AM: ₹156 premium → Mon-Sun coverage
+Wed 8 PM: Rain trigger → ₹600 INSTANT UPI (same night)
+Net: Ravi protected immediately
 ```
 
 ---
@@ -155,14 +155,16 @@ TOTAL: ₹156/week (covers up to ₹6,000 loss)
 
 ---
 
-### Scenario 2 — Thursday Rain → Friday Payout
+### Scenario 2 — **Wednesday Rain → INSTANT Payout**
 
 ```
-7:15 AM : Ravi books 6–10 PM slot  →  Mock Zepto sync
-8:00 PM : IMD rain > 10 mm         →  Zepto halts service
-GPS     : Ravi stationary at VIZ-003 store ✅
-Friday  : ₹600 auto-payout  (4 hrs × ₹150/hr)
+7:15 AM: Ravi books 6–10 PM slot → Mock Zepto sync
+8:00 PM: IMD rain >10mm → Zepto halts service
+8:15 PM: GPS verified at VIZ-003 ✅
+8:20 PM: ₹600 INSTANT UPI payout (4hrs × ₹150/hr)
 ```
+
+**Ravi receives money WHILE rain continues** → No waiting till Friday.
 
 ---
 
@@ -233,11 +235,11 @@ Razorpay Sandbox  IMD / AQI
 - **Payment Gateway (Razorpay Sandbox):** Integrated simulated payment systems to demonstrate instant weekly premium auto-debits and automated payout processing for lost income.
 
 ### 200k Rider Scale Performance
-| Operation | Latency Target | Capacity / Volume | Tech Enabling This |
-|---|---|---|---|
-| Premium Calc | < 100ms | 10,000 / min | FastAPI + Redis Cache |
-| Fraud Check | < 200ms | Real-time | TimescaleDB + Isolation Forest |
-| Payouts | 5s batch | 100,000 / week | Razorpay Sandbox Batch API |
+| Operation | Latency Target | Capacity | Tech |
+|-----------|----------------|----------|------|
+| **Instant Payout** | **<10s** | **Real-time** | **Razorpay Instant** |
+| Premium Calc | <100ms | 10k/min | FastAPI + Redis |
+| Fraud Check | <200ms | Real-time | TimescaleDB + Isolation Forest |
 
 ---
 
@@ -281,11 +283,17 @@ To strictly enforce legitimate claims, we deploy an Isolation Forest algorithm f
 
 ## 6. Development Plan (6 Weeks) 
 
-```
-Phase 1 ✅  [Mar  4–20] : README + 2-min video + GitHub
-Phase 2     [Mar 21–Apr 4] : Mock APIs + Razorpay sandbox
-Phase 3     [Apr  5–17] : Full ML models + Admin dashboard
-```
+**Phase 1 [March 4 - 20]: Ideation & Foundation**  
+README, 2-minute prototype video, and GitHub repo setup.
+
+**Phase 2 [March 21 - April 4]: Automation & Protection**  
+Executable source code for: Rider Registration, Policy Management, Dynamic Premium Calc, and Claims Management.  
+Integrate 3-5 automated parametric triggers (IMD & Mock APIs).
+
+**Phase 3 [April 5 - 17]: Scale & Optimise**  
+Advanced ML Fraud Detection (GPS spoofing isolation).  
+Simulated Instant Payout System via Razorpay Sandbox.  
+Admin/Worker Dashboards, Final 5-minute Demo Video, and Pitch Deck.
 
 ### APIs Live
 
