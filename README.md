@@ -6,20 +6,20 @@
 
 ## 📋 Table of Contents
 
-1. [The Problem & Our Persona](#1-the-problem--our-persona-)
-2. [The Solution & Strict Scope](#2-the-solution--strict-scope-)
-3. [Parametric Triggers](#3-parametric-triggers-)
-4. [Persona-Based Scenarios & Workflow](#4-persona-based-scenarios--workflow-)
-5. [Architecture & Tech Stack](#5-architecture--tech-stack-)
+1. [The Problem & Our Persona](#1-the-problem-and-our-persona)
+2. [The Solution & Strict Scope](#2-the-solution--strict-scope)
+3. [Parametric Triggers](#3-parametric-triggers)
+4. [Persona-Based Scenarios and Workflow](#4-persona-based-scenarios-and-workflow)
+5. [Architecture and Tech Stack](#5-architecture-and-tech-stack)
 6. [AI/ML Integration (Premium + Fraud)](#6-aiml-integration-premium--fraud)
 7. [Adversarial Defense & Anti-Spoofing Strategy](#7-adversarial-defense--anti-spoofing-strategy)
-8. [Financial Model & Sustainability](#8-financial-model--sustainability-)
-9. [Development Plan](#9-development-plan-6-weeks-)
+8. [Financial Model & Sustainability](#8-financial-model--sustainability)
+9. [Development Plan](#9-development-plan-6-weeks)
 10. [Team Necromancer](#10-team-necromancer)
 
 ---
 
-## 1. The Problem & Our Persona 
+## 1. The Problem and Our Persona
 
 India's **grocery delivery partners** lose **20–30% weekly income (₹2,000–₹3,000)** to weather disruptions. Zero protection exists beyond accident coverage.
 
@@ -47,7 +47,7 @@ India's **grocery delivery partners** lose **20–30% weekly income (₹2,000–
 
 ---
 
-## 2. The Solution & Strict Scope 
+## 2. The Solution & Strict Scope
 
 **AI parametric insurance** → **INSTANT payouts on disruption day**. No paperwork. Fraud-proof ML.
 
@@ -85,7 +85,7 @@ Real-time automation — **no manual claims process required.**
 
 ---
 
-## 4. Persona-Based Scenarios & Workflow
+## 4. Persona-Based Scenarios and Workflow
 
 ### Scenario 1 — Sunday Premium Sync (Hours-Tiered Coverage)
 
@@ -236,7 +236,7 @@ App notification: "Good news! Your new store zone is lower risk.
 
 ---
 
-## 5. Architecture & Tech Stack 
+## 5. Architecture and Tech Stack
 
 ### Platform Choice: Why Mobile over Web?
 
