@@ -1,6 +1,6 @@
 # GroceryGuard: AI-Powered Income Protection for India's Gig Economy
 
-> 🔗 **[Live Prototype Demo](https://nicromancer-demo.vercel.app/)** | **[2-Minute Pitch Video](https://your-video-link-here.com)** *(Add final link before Mar 20!)*
+> 🔗 **[Live Prototype Demo](https://nicromancer-demo.vercel.app/)** | **[2-Minute Pitch Video](https://youtu.be/9xus4h3XnXw)** 
 
 ---
 
@@ -21,7 +21,7 @@
 
 ## 1. The Problem & Our Persona 
 
-India's **8M+ grocery delivery partners** lose **20–30% weekly income (₹2,000–₹3,000)** to weather disruptions, according to NDMA and IMD seasonal disruption data. Zero income protection exists beyond basic accident coverage.
+India's **grocery delivery partners** lose **20–30% weekly income (₹2,000–₹3,000)** to weather disruptions. Zero protection exists beyond accident coverage.
 
 ### 🎯 Persona A: Ravi Sharma (25, Vizag) — Primary
 
@@ -599,8 +599,8 @@ Max Weekly Payout:   Tier coverage ceiling (₹4k / ₹6k / ₹8k)
 | Deliverable | Status |
 |---|---|
 | README.md (this document) | ✅ Complete |
-| GitHub Repository | ✅ [Link your repo here] |
-| 2-Minute Pitch Video | 🎥 [Upload and link before Mar 20 EOD] |
+| GitHub Repository | ✅ https://github.com/PraneethKulukuri26/Necromancer-GuideWire |
+| 2-Minute Pitch Video | ✅ https://youtu.be/9xus4h3XnXw |
 | Live Prototype (minimal UI) | ✅ nicromancer-demo.vercel.app |
 
 **Key decisions locked:**
@@ -689,8 +689,8 @@ def generate_syndicate_attack(store_lat, store_lon, n_fraudsters=50):
 | Name | Role | Email |
 |---|---|---|
 | **Kulukuri Praneeth** | Team Leader / Backend | `2300090274csitelge@gmail.com` |
-| **Dodda Sai Prudhvi Raja** | Frontend / React Native | *(add email)* |
-| **Vasani Roshan Anantha Sai** | ML / Data / Infra | *(add email)* |
+| **Dodda Sai Prudhvi Raja** | Frontend / React Native | `2300032835cseird@gmail.com` |
+| **Vasani Roshan Anantha Sai** | ML / Data / Infra | `roshanananthasai.v@gmail.com` |
 
 ---
 
